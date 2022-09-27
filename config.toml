@@ -4,7 +4,7 @@ languageCode = "en-us"
 DefaultContentLanguage = "fr"
 title = "Documentation Oper@"
 theme = "hugo-theme-techdoc"
-publishdir = "docs"
+publishdir = "public"
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
@@ -100,6 +100,12 @@ enableMissingTranslationPlaceholders = false
         [menu.main.params]
         
 
+    [[menu.main]]
+        name = "Rechercher"
+        url = "/recherche"
+        weight = 5
+        identifier = 'recherche'
+        [menu.main.params]
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
 [markup]

@@ -167,6 +167,15 @@ aaa</description>
     </item>
     
     <item>
+      <title>Recherche</title>
+      <link>https://laurentapps.github.io/hugo-techdoc-pub/recherche/</link>
+      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
+      
+      <guid>https://laurentapps.github.io/hugo-techdoc-pub/recherche/</guid>
+      <description>{{- .Inner -}} {{ if and .Site.Params.algolia_search_enable .Site.Params.algolia_indexName .Site.Params.algolia_appId .Site.Params.algolia_apiKey }} {{- partial &amp;ldquo;search.html&amp;rdquo; . -}} {{ end }}</description>
+    </item>
+    
+    <item>
       <title>Chapter 2-4 (weight: 20)</title>
       <link>https://laurentapps.github.io/hugo-techdoc-pub/gestion-des-absences/4/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
