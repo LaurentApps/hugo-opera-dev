@@ -13,7 +13,8 @@ images:
 
 ## Site demo avec hugo, theme techdoc et github TEST
 
-![Texte alternatif](/images/office.jpg "sample")
+![Texte alternatif](images/office.jpg "sample")
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
